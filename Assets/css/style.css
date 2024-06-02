@@ -1,5 +1,4 @@
 body {
-    display: block;
     padding-left: 1%;
     padding-right: 1%;
     font-size: small;
@@ -16,9 +15,9 @@ body {
 
 .cnt-board {
     display: flex;
-    background-color: #0F0F0F;
     height: auto;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
 
 
@@ -29,4 +28,10 @@ body {
     width: 50%;
     background-color: rgb(120, 200, 247);
     /* font-family: initial; */
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
 }
