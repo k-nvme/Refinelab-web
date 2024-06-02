@@ -1,8 +1,13 @@
 body {
-    padding-left: 1%;
-    padding-right: 1%;
+    /* padding-left: 1%;
+    padding-right: 1%; */
     font-size: small;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    margin-bottom: 5px;
+
 }
 
 .navTop {
@@ -31,7 +36,42 @@ body {
 }
 
 .cta {
-    display: flex;
-    justify-content: space-between;
+    display: flexbox;
+    flex-direction: column-reverse;
+    justify-content: space-around;
     height: auto;
+}
+
+.discordBoard {
+
+}
+
+.cta-discord {
+    width: 20%;
+    height: auto;
+}
+
+
+/* Mobile view adjustments */
+@media screen and (max-width: 768px) {
+    .cta-discord {
+        width: 40%; /* Increase the width to make it larger on mobile */
+    }
+    .cnt-board {
+        align-items: stretch;
+    }
+    /* .cnt-text {
+        width: 100%;
+    } 
+    .discordBoard {
+        width: 200%;
+    } 
+    .banner {
+        width: 102%;
+    } 
+    body {
+        display: ;
+        font-size: medium;
+        padding-right: 10px;
+    }  */
 }
